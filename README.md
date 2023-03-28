@@ -17,7 +17,7 @@
 - Set SFML environment:
 [SFML](https://www.sfml-dev.org/)
 - On Mac use `brew install sfml`
-- Run `brew info sfml`   tofind where is sfml locate. My is `"opt/homebrew/Cellar/sfml/2.5.1_2"`. Use flag` -I` and `-L` for  `include`and `lib`.
+- Run `brew info sfml`   tofind where is sfml locate. My SFML is `"opt/homebrew/Cellar/sfml/2.5.1_2"`. Use flag` -I` and `-L` for  `include`and `lib`.
 
 - Run:
   - `g++ sierpinskiMain.cpp sierpinski.cpp -I/opt/homebrew/Cellar/sfml/2.5.1_2/include -L/opt/homebrew/Cellar/sfml/2.5.1_2/lib -o  sierpinski -lsfml-graphics -lsfml-window -lsfml-system `
