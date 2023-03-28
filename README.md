@@ -7,10 +7,10 @@
 
 ![sierpinski triangle](Sierpinski.png)
 
-- Generate triangle to crate random output is call sierpinski triangle with 02 integers of depth and width.
+- Generate triangle to create random output which is called sierpinski triangle with 02 integers of depth and width.
 
 - Sample `./triangle 5 15` and `./sierpinski 3 10`
-- Recursive Graphics, here is triangle.
+- Recursive Graphics.
 
 ## To Set Up:
 - Git clone repository.
