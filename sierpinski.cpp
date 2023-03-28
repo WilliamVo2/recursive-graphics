@@ -9,7 +9,7 @@ Sierpinski::Sierpinski (int side, int depth): _depth(depth){
   _left = sf::Vector2f(0, height);
   _right = sf::Vector2f(side-1, height);
 
-  triangle.setPointCount(3)
+  triangle.setPointCount(3);
   triangle.setPoint(0, sf::Vector2f(0, _depth));
   triangle.setPoint(1, sf::Vector2f(_depth, _depth));
   triangle.setPoint(1, sf::Vector2f((_depth/2), (_depth -(sqrt(3)/2)*_depth)));
@@ -53,7 +53,7 @@ void Sierpinski::filledTriangle(sf::Vector2f set_point[3], sf::RenderTarget& tar
 
   triangle.setFillColor(sf::Color::Green);
   triangle.setPosition(2, _depth - (4*set_point[2].y));
-  target.draw(triangle. states);
+  target.draw(triangle, states);
 }
 
 
