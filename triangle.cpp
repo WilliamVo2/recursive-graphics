@@ -26,7 +26,7 @@ void Sierpinski::draw(sf::RenderTarget& target, sf::RenderStates states) const {
 }
 
 void Sierpinski::sierpinski( double x, double y, double z, int level, sf::RenderTarget& target, sf::RenderStates states) const {
-  sf::Vector2f get-point[3];
+  sf::Vector2f get_point[3];
   if(level == 0) {
     return;
   } else {
@@ -49,7 +49,7 @@ void Sierpinski::sierpinski( double x, double y, double z, int level, sf::Render
 void Sierpinski::filledTriangle(sf::Vector2f set_point[3], sf::RenderTarget& target, sf::RenderStates states) const {
   //fill triangle
 
-  sf::ConvexSharp triangle;
+  sf::ConvexShape triangle;
   triangle.setPointCount(3);
   triangle.setPoint(0, set_point[0]);
   triangle.setPoint(1, set_point[1]);

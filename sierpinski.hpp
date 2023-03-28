@@ -17,7 +17,7 @@ class Sierpinski: public sf::Drawable {
 
     void virtual draw(sf::RenderTarget& target, sf::RenderStates states) const;
     sf::ConvexShape triangle;
-      sf::Vector2f _top, -left, _right;
+      sf::Vector2f _top, _left, _right;
       int _depth;
     int count;
       Sierpinski* _child1;
